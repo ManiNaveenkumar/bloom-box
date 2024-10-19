@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><script src="https://kit.fontawesome.com/c151f8b53b.js" crossorigin="anonymous"></script>
+<link href="./output.css" rel="stylesheet">
+
+<body>
+   
+    <div class="container  mx-auto">
+
+
+
+        <!--divison for navbar-->
+        <nav class="flex justify-between   items-center bg-green-700 px-9">
+            <div class=" p-4 h-auto w-32  font-extrabold text-white">
+                <h1 class="text-5xl">BloomBox</h1>
+            </div>
+            <ul class="hidden md:flex space-x-8   ">
+                <li><a href="#hero" class="   font-extrabold hover:text-white text-2xl">Home</a></li>
+                <li><a href="#shop" class="font-extrabold  hover:text-white text-2xl">Shop</a></li>
+                <li><a href="#green" class="font-extrabold  hover:text-white text-2xl">About</a></li>
+                <li><a href="#contact" class="font-extrabold  hover:text-white text-2xl">Contact</a></li>
+            </ul>
+            <button class="md:block hidden font-extrabold  bg-white px-5 p-4 rounded-full  hover:bg-slate-300">Sign
+                up</button>
+                <button class="block md:hidden text-3xl " id="mobcon"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        
+        <div class="bg-emerald-300 md:hidden block " id="mobbar">
+            <ul class="flex flex-col items-center  space-y-8   ">
+                <li><a href="#hero" class="   font-extrabold hover:text-white text-2xl">Home</a></li>
+                <li><a href="#shop" class="font-extrabold  hover:text-white text-2xl">Shop</a></li>
+                <li><a href="#green" class="font-extrabold  hover:text-white text-2xl">About</a></li>
+                <li><a href="#contact" class="font-extrabold  hover:text-white text-2xl">Contact</a></li>
+                <li><button class=" font-extrabold  bg-white px-5 p-4 rounded-full  hover:bg-slate-300">Sign
+                    up</button></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--content divison-->
+    <div id="hero" class=" grid mt-10   gap-10  lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 ">
+        <div class=" mx-auto     right-0 ">
+            <img src="New folder/rb_2149214943.png">
+        </div>
+        <div class=" text-center">
+            <p class="text-5xl font-semibold pt-28">Bring Nature to Your Doorstep</p>
+            <p class="text-2xl font-light pt-5">"Discover the perfect plants and garden essentials to brighten your home
+                and outdoor spaces."</p>
+            <button
+                class="hidden md:block  bg-blue-500 rounded-full  text-5xl  px-5 py-3 font-serif hover:text-white hover:bg-green-500 mt-20 ">
+                Shop now</button><button
+                class=" ml-7 hidden md:block   bg-green-500 rounded-md text-2xl px-2 font-serif hover:text-white hover:bg-blue-500 mt-20">Explore
+                our plants </button>
+        </div>
+    </div>
+    <!--Main div-->
+    <h2 class="text-4xl p-5 font-black" id="shop">Shop by Category</h2>
+    <div class=" grid gap-10 mx-10 sm:ml-5 lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-1 ">
+        <div class="bg-blue-500 p-8  rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Indoor Plants</p>
+            <img class="h-72 w-72 " src="New folder/indoor plants.png">
+            <button
+                class="ml-20 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4">Bring nature indoors with low-maintenance, air-purifying plants</p>
+        </div>
+
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Outdoor Plants</p>
+            <img class="h-72 w-72 " src="New folder/outdoor.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+
+            <p class="font-normal text-lg mt-4">Enhance your outdoor space with beautiful, hardy plants</p>
+
+        </div>
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Seeds & Kits</p>
+            <img class="h-72 w-72 " src="New folder/rb_63166.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4">Easy-to-grow seeds and kits for all gardeners</p>
+
+        </div>
+
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Garden Tools</p>
+            <img class="h-72 w-72 " src="New folder/gardening-tools-isolated.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4"> High-quality tools for every gardening need
+            </p>
+
+        </div>
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Plant Care Products</p>
+            <img class="h-72 w-72 " src="New folder/202894086_10852261.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4"> Nurture your plants with expert care essentials</p>
+
+
+        </div>
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Planters & Pots</p>
+            <img class="h-72 w-72 " src="New folder/202938692_10852134.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4"> Stylish planters to complement every plant
+            </p>
+        </div>
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Fertilizers and Soil</p>
+            <img class="h-72 w-72 " src="New folder/rb_134055.png">
+            <button
+                class="ml-20 mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4"> Boost plant growth with nutrient-rich soil and organic fertilizers.
+            </p>
+        </div>
+        <div class="bg-blue-500 p-5 rounded-3xl ">
+            <p class="font-bold text-xl text-white text-center">Gardening Accessories</p>
+            <img class="h-72 w-72 "
+                src="New folder/realistic-garden-round-concept-with-boots-gloves-watering-can-shovel-rake-trowel-hose-hoe-buckets-wheelbarrow-dirt-isolated-illustration.png">
+            <button
+                class=" ml-20  mt-3 text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-green-700 p-4">Shop
+                Now</button>
+            <p class="font-normal text-lg mt-4"> Add decorative touches and handy tools to perfect your garden space.
+            </p>
+
+
+        </div>
+    </div>
+    <!--Top picks-->
+    <h2 class="mt-10 text-4xl p-5 font-black">Our Top Picks!</h2>
+    <div class=" mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        <div class="bg-green-500 p-5 rounded-3xl">
+            <p class="font-bold text-xl text-white text-center">Fiddle Leaf Fig</p>
+            <img class="h-72 w-72 mx-auto" src="New folder/168295123_10562766.png">
+            <div class="text-center mt-3">
+                <button
+                    class="inline-block text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-blue-700 p-4">
+                    Shop Now
+                </button>
+            </div>
+            <p class="font-normal text-lg mt-4 text-center">"Bring elegance to your living room."<span
+                    class="font-bold">– $49.99</span></p>
+        </div>
+
+
+
+        <div class="bg-green-500 p-5 rounded-3xl">
+            <p class="font-bold text-xl text-white text-center">Terracotta Planter Set</p>
+            <img class="h-72 w-72 mx-auto" src="New folder/57396048_9383561.png">
+            <div class="text-center mt-3">
+                <button
+                    class="inline-block text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-blue-700 p-4">
+                    Shop Now
+                </button>
+            </div>
+            <p class="font-normal text-lg mt-4 text-center">"Durable and stylish pots." <span class="font-bold">–
+                    $29.99</span></p>
+        </div>
+
+        <div class="bg-green-500 p-5 rounded-3xl">
+            <p class="font-bold text-xl text-white text-center">Herb Garden Kit</p>
+            <img class="h-72 w-72 mx-auto" src="New folder/small-plant-is-bowl-with-green-leaves.png">
+            <div class="text-center mt-3">
+                <button
+                    class="inline-block text-white rounded-full text-xl font-medium hover:bg-white hover:text-black border-green-700 bg-blue-700 p-4">
+                    Shop Now
+                </button>
+            </div>
+            <p class="font-normal text-lg mt-4 text-center">"Add decorative touches and handy tools to perfect your
+                garden space." <span class="font-bold">– $24.99</span></p>
+        </div>
+
+    </div>
+    <!--just arrived sec-->
+    <h2 class="mt-10 text-4xl p-5 font-black ">Just Arrived</h2>
+
+    <div class="bg-blue-300 m-5 rounded-lg p-5">
+        <div class=" mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-10 ">
+            <div class="bg-orange-500 p-5 rounded-3xl">
+                <img class="h-72 w-72 mx-auto" src="New folder/aloe-vera-background-flat-design.png">
+                <p class="font-bold text-xl text-white text-center">Aloe Vera <span class="text-black font-normal"> –
+                        $15.99</span></p>
+            </div>
+
+
+
+            <div class="bg-orange-500 p-5 rounded-3xl">
+                <img class="h-72 w-72 mx-auto"
+                    src="New folder/calathea-orbifolia-png-isolated-transparent-background.png">
+
+                <p class="font-bold text-xl text-white text-center">Calathea Orbifolia <span
+                        class="text-black font-normal"> – $32.99</span></p>
+            </div>
+
+            <div class="bg-orange-500 p-5 rounded-3xl">
+                <img class="h-72 w-72 mx-auto" src="New folder/rb_46444.png">
+                <p class="font-bold text-xl text-white text-center">Organic Street Starter Kit<span
+                        class="text-black font-normal"> – $19.99</span></p>
+            </div>
+
+        </div>
+        <div class="text-center  mt-3">
+            <button
+                class=" text-white rounded-full text-xl font-medium hover:bg-orange-600 hover:text-black  bg-blue-700 p-4">
+                Shop New Arrivals
+            </button>
+
+        </div>
+    </div>
+
+    <!-- about us
+ -->
+
+    <div class="bg-emerald-400 m-10 rounded-3xl p-6">
+        <h2 class="mt-10 mb-10 text-4xl p-5 font-black text-center text-white " id=green>Nurture With BloomBox</h2>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+            <!--1-->
+            <div class=" pb-5 md:pl-10 sm:pl-20 lg:pl-40">
+                <img class="h-96" src="New folder/man-planting-tree-garden.png">
+            </div>
+            <div class="pt-6 pl-10">
+                <p class="text-xl text-stone-950 font-sans p-3">At Bloombox, we make it simple to bring nature into your
+                    life. Our mission is to empower you to grow with confidence, surrounded by the beauty of nature.</p>
+                <div class="bg-emerald-500 inline-block p-5 rounded-2xl ">
+                    <p class="font-sans text-2xl  "  >Why Bloombox?</p>
+                    <ul class=" text-base font-sans pt-1 font-semibold">
+                        <li>>Free Shipping on orders over $50</li>
+                        <li>>100% Organic Products</li>
+                        <li>>Expert Advice</li>
+                        <li>>Satisfaction Guarantee</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--contact tab-->
+
+    <div class="bg-red-400  m-10 rounded-3xl " id="contact">
+        <h2 class="mt-10 mb-10 text-4xl p-5 font-black text-center">What Our Customers Are Saying</h2>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+            <!--1-->
+            <div>
+                <img class="pl-40 rounded-full w-96 " src="New folder/review.png ">
+            </div>
+            <div>
+                <h3 class="text-white text-4xl md:pl-2 lg:pl-2 sm:pl-5">Ragavan Elavarasan</h3>
+                <p class="p-7">"I’ve never had a green thumb, but with Bloombox’s guidance, my apartment is now a mini
+                    jungle!" – ⭐⭐⭐⭐⭐</p>
+                <h3 class="text-white text-4xl md:pl-2 lg:pl-2 sm:pl-5">Sandy ortan</h3>
+                <p class="p-7">"The delivery was fast, and the plants arrived in perfect condition." – ⭐⭐⭐⭐⭐</p>
+            </div>
+
+        </div>
+
+    </div>
+<script>
+    const mobbar=document.getElementById("mobbar")
+    const mobnav=document.getElementById("mobcon")
+    mobnav.addEventListener('click',()=>{
+        mobbar.classList.toggle('hidden')
+    })
+    </script>
+</body>
+
+</html>
